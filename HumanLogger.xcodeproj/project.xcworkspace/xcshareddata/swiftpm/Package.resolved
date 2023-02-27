@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bodytracking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/darvin/BodyTracking.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6438eb845edcbd671bbd6c5f6ce3c625d4b35364"
+      }
+    }
+  ],
+  "version" : 2
+}

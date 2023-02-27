@@ -15,6 +15,9 @@
 		9AE6D95229AC8625004B7349 /* HumanLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D95129AC8625004B7349 /* HumanLoggerTests.swift */; };
 		9AE6D95C29AC8625004B7349 /* HumanLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D95B29AC8625004B7349 /* HumanLoggerUITests.swift */; };
 		9AE6D95E29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D95D29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift */; };
+		9AE6D96B29AC86CE004B7349 /* BodyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D96A29AC86CE004B7349 /* BodyARView.swift */; };
+		9AE6D96E29AC86E6004B7349 /* BodyTracking in Frameworks */ = {isa = PBXBuildFile; productRef = 9AE6D96D29AC86E6004B7349 /* BodyTracking */; };
+		9AE6D97029AC8741004B7349 /* robotWhite.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 9AE6D96F29AC8741004B7349 /* robotWhite.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,8 @@
 		9AE6D95729AC8625004B7349 /* HumanLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE6D95B29AC8625004B7349 /* HumanLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanLoggerUITests.swift; sourceTree = "<group>"; };
 		9AE6D95D29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanLoggerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AE6D96A29AC86CE004B7349 /* BodyARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyARView.swift; sourceTree = "<group>"; };
+		9AE6D96F29AC8741004B7349 /* robotWhite.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robotWhite.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AE6D96E29AC86E6004B7349 /* BodyTracking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +104,11 @@
 			children = (
 				9AE6D93E29AC8623004B7349 /* AppDelegate.swift */,
 				9AE6D94029AC8623004B7349 /* ContentView.swift */,
+				9AE6D96F29AC8741004B7349 /* robotWhite.usdz */,
 				9AE6D94229AC8623004B7349 /* Experience.rcproject */,
 				9AE6D94429AC8625004B7349 /* Assets.xcassets */,
 				9AE6D94629AC8625004B7349 /* Preview Content */,
+				9AE6D96A29AC86CE004B7349 /* BodyARView.swift */,
 			);
 			path = HumanLogger;
 			sourceTree = "<group>";
@@ -146,6 +154,9 @@
 			dependencies = (
 			);
 			name = HumanLogger;
+			packageProductDependencies = (
+				9AE6D96D29AC86E6004B7349 /* BodyTracking */,
+			);
 			productName = HumanLogger;
 			productReference = 9AE6D93B29AC8623004B7349 /* HumanLogger.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 9AE6D93229AC8623004B7349;
+			packageReferences = (
+				9AE6D96C29AC86E6004B7349 /* XCRemoteSwiftPackageReference "BodyTracking" */,
+			);
 			productRefGroup = 9AE6D93C29AC8623004B7349 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE6D94829AC8625004B7349 /* Preview Assets.xcassets in Resources */,
+				9AE6D97029AC8741004B7349 /* robotWhite.usdz in Resources */,
 				9AE6D94529AC8625004B7349 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +278,7 @@
 				9AE6D94129AC8623004B7349 /* ContentView.swift in Sources */,
 				9AE6D93F29AC8623004B7349 /* AppDelegate.swift in Sources */,
 				9AE6D94329AC8623004B7349 /* Experience.rcproject in Sources */,
+				9AE6D96B29AC86CE004B7349 /* BodyARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +607,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9AE6D96C29AC86E6004B7349 /* XCRemoteSwiftPackageReference "BodyTracking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/darvin/BodyTracking.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AE6D96D29AC86E6004B7349 /* BodyTracking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AE6D96C29AC86E6004B7349 /* XCRemoteSwiftPackageReference "BodyTracking" */;
+			productName = BodyTracking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9AE6D93329AC8623004B7349 /* Project object */;
 }
