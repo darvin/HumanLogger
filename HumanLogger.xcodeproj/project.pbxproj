@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AE6D93F29AC8623004B7349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D93E29AC8623004B7349 /* AppDelegate.swift */; };
+		9AE6D94129AC8623004B7349 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D94029AC8623004B7349 /* ContentView.swift */; };
+		9AE6D94329AC8623004B7349 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D94229AC8623004B7349 /* Experience.rcproject */; };
+		9AE6D94529AC8625004B7349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE6D94429AC8625004B7349 /* Assets.xcassets */; };
+		9AE6D94829AC8625004B7349 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE6D94729AC8625004B7349 /* Preview Assets.xcassets */; };
+		9AE6D95229AC8625004B7349 /* HumanLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D95129AC8625004B7349 /* HumanLoggerTests.swift */; };
+		9AE6D95C29AC8625004B7349 /* HumanLoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D95B29AC8625004B7349 /* HumanLoggerUITests.swift */; };
+		9AE6D95E29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE6D95D29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AE6D94E29AC8625004B7349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE6D93329AC8623004B7349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE6D93A29AC8623004B7349;
+			remoteInfo = HumanLogger;
+		};
+		9AE6D95829AC8625004B7349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AE6D93329AC8623004B7349 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE6D93A29AC8623004B7349;
+			remoteInfo = HumanLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AE6D93B29AC8623004B7349 /* HumanLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumanLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE6D93E29AC8623004B7349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AE6D94029AC8623004B7349 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AE6D94229AC8623004B7349 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		9AE6D94429AC8625004B7349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AE6D94729AC8625004B7349 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AE6D94D29AC8625004B7349 /* HumanLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE6D95129AC8625004B7349 /* HumanLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanLoggerTests.swift; sourceTree = "<group>"; };
+		9AE6D95729AC8625004B7349 /* HumanLoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanLoggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE6D95B29AC8625004B7349 /* HumanLoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanLoggerUITests.swift; sourceTree = "<group>"; };
+		9AE6D95D29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanLoggerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE6D93829AC8623004B7349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE6D94A29AC8625004B7349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE6D95429AC8625004B7349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AE6D93229AC8623004B7349 = {
+			isa = PBXGroup;
+			children = (
+				9AE6D93D29AC8623004B7349 /* HumanLogger */,
+				9AE6D95029AC8625004B7349 /* HumanLoggerTests */,
+				9AE6D95A29AC8625004B7349 /* HumanLoggerUITests */,
+				9AE6D93C29AC8623004B7349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE6D93C29AC8623004B7349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE6D93B29AC8623004B7349 /* HumanLogger.app */,
+				9AE6D94D29AC8625004B7349 /* HumanLoggerTests.xctest */,
+				9AE6D95729AC8625004B7349 /* HumanLoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE6D93D29AC8623004B7349 /* HumanLogger */ = {
+			isa = PBXGroup;
+			children = (
+				9AE6D93E29AC8623004B7349 /* AppDelegate.swift */,
+				9AE6D94029AC8623004B7349 /* ContentView.swift */,
+				9AE6D94229AC8623004B7349 /* Experience.rcproject */,
+				9AE6D94429AC8625004B7349 /* Assets.xcassets */,
+				9AE6D94629AC8625004B7349 /* Preview Content */,
+			);
+			path = HumanLogger;
+			sourceTree = "<group>";
+		};
+		9AE6D94629AC8625004B7349 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AE6D94729AC8625004B7349 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AE6D95029AC8625004B7349 /* HumanLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AE6D95129AC8625004B7349 /* HumanLoggerTests.swift */,
+			);
+			path = HumanLoggerTests;
+			sourceTree = "<group>";
+		};
+		9AE6D95A29AC8625004B7349 /* HumanLoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AE6D95B29AC8625004B7349 /* HumanLoggerUITests.swift */,
+				9AE6D95D29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift */,
+			);
+			path = HumanLoggerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE6D93A29AC8623004B7349 /* HumanLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE6D96129AC8625004B7349 /* Build configuration list for PBXNativeTarget "HumanLogger" */;
+			buildPhases = (
+				9AE6D93729AC8623004B7349 /* Sources */,
+				9AE6D93829AC8623004B7349 /* Frameworks */,
+				9AE6D93929AC8623004B7349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumanLogger;
+			productName = HumanLogger;
+			productReference = 9AE6D93B29AC8623004B7349 /* HumanLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AE6D94C29AC8625004B7349 /* HumanLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE6D96429AC8625004B7349 /* Build configuration list for PBXNativeTarget "HumanLoggerTests" */;
+			buildPhases = (
+				9AE6D94929AC8625004B7349 /* Sources */,
+				9AE6D94A29AC8625004B7349 /* Frameworks */,
+				9AE6D94B29AC8625004B7349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE6D94F29AC8625004B7349 /* PBXTargetDependency */,
+			);
+			name = HumanLoggerTests;
+			productName = HumanLoggerTests;
+			productReference = 9AE6D94D29AC8625004B7349 /* HumanLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AE6D95629AC8625004B7349 /* HumanLoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE6D96729AC8625004B7349 /* Build configuration list for PBXNativeTarget "HumanLoggerUITests" */;
+			buildPhases = (
+				9AE6D95329AC8625004B7349 /* Sources */,
+				9AE6D95429AC8625004B7349 /* Frameworks */,
+				9AE6D95529AC8625004B7349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AE6D95929AC8625004B7349 /* PBXTargetDependency */,
+			);
+			name = HumanLoggerUITests;
+			productName = HumanLoggerUITests;
+			productReference = 9AE6D95729AC8625004B7349 /* HumanLoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE6D93329AC8623004B7349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9AE6D93A29AC8623004B7349 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9AE6D94C29AC8625004B7349 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9AE6D93A29AC8623004B7349;
+					};
+					9AE6D95629AC8625004B7349 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 9AE6D93A29AC8623004B7349;
+					};
+				};
+			};
+			buildConfigurationList = 9AE6D93629AC8623004B7349 /* Build configuration list for PBXProject "HumanLogger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AE6D93229AC8623004B7349;
+			productRefGroup = 9AE6D93C29AC8623004B7349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE6D93A29AC8623004B7349 /* HumanLogger */,
+				9AE6D94C29AC8625004B7349 /* HumanLoggerTests */,
+				9AE6D95629AC8625004B7349 /* HumanLoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE6D93929AC8623004B7349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE6D94829AC8625004B7349 /* Preview Assets.xcassets in Resources */,
+				9AE6D94529AC8625004B7349 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE6D94B29AC8625004B7349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE6D95529AC8625004B7349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE6D93729AC8623004B7349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE6D94129AC8623004B7349 /* ContentView.swift in Sources */,
+				9AE6D93F29AC8623004B7349 /* AppDelegate.swift in Sources */,
+				9AE6D94329AC8623004B7349 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE6D94929AC8625004B7349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE6D95229AC8625004B7349 /* HumanLoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE6D95329AC8625004B7349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE6D95E29AC8625004B7349 /* HumanLoggerUITestsLaunchTests.swift in Sources */,
+				9AE6D95C29AC8625004B7349 /* HumanLoggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AE6D94F29AC8625004B7349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AE6D93A29AC8623004B7349 /* HumanLogger */;
+			targetProxy = 9AE6D94E29AC8625004B7349 /* PBXContainerItemProxy */;
+		};
+		9AE6D95929AC8625004B7349 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AE6D93A29AC8623004B7349 /* HumanLogger */;
+			targetProxy = 9AE6D95829AC8625004B7349 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9AE6D95F29AC8625004B7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AE6D96029AC8625004B7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE6D96229AC8625004B7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MVLBZ7VBR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.standard.HumanLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AE6D96329AC8625004B7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanLogger/Preview Content\"";
+				DEVELOPMENT_TEAM = 9MVLBZ7VBR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.standard.HumanLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AE6D96529AC8625004B7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MVLBZ7VBR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.standard.HumanLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanLogger";
+			};
+			name = Debug;
+		};
+		9AE6D96629AC8625004B7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MVLBZ7VBR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.standard.HumanLoggerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanLogger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanLogger";
+			};
+			name = Release;
+		};
+		9AE6D96829AC8625004B7349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MVLBZ7VBR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.standard.HumanLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanLogger;
+			};
+			name = Debug;
+		};
+		9AE6D96929AC8625004B7349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MVLBZ7VBR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.standard.HumanLoggerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanLogger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE6D93629AC8623004B7349 /* Build configuration list for PBXProject "HumanLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE6D95F29AC8625004B7349 /* Debug */,
+				9AE6D96029AC8625004B7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE6D96129AC8625004B7349 /* Build configuration list for PBXNativeTarget "HumanLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE6D96229AC8625004B7349 /* Debug */,
+				9AE6D96329AC8625004B7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE6D96429AC8625004B7349 /* Build configuration list for PBXNativeTarget "HumanLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE6D96529AC8625004B7349 /* Debug */,
+				9AE6D96629AC8625004B7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE6D96729AC8625004B7349 /* Build configuration list for PBXNativeTarget "HumanLoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE6D96829AC8625004B7349 /* Debug */,
+				9AE6D96929AC8625004B7349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE6D93329AC8623004B7349 /* Project object */;
+}
