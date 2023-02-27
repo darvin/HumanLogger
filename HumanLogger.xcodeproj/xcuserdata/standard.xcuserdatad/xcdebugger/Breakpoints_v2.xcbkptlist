@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6A7FAEF6-7892-46DE-891D-75336DACF3DD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D17511C4-8B80-4BDF-A0C1-BFFD9D47150E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C14E0BC1-4110-4CAC-8491-EBCF4E782878"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9122027F-1BE8-493B-B613-94F671B22F25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "init(arView:maxDistance:disableWhenUnrecognized:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "949941F9-02AE-4DD4-8014-AA3E7B36DB6B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "update()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "949941F9-02AE-4DD4-8014-AA3E7B36DB6B - c68dd693b1e1163e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BodyTracking.HandTracker3D.update() -&gt; ()"
+                  moduleName = "HumanLogger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/standard/Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "949941F9-02AE-4DD4-8014-AA3E7B36DB6B - 68847b1c18f0bb99"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.CGPoint) -&gt; Swift.Optional&lt;Swift.Float&gt; in BodyTracking.HandTracker3D.update() -&gt; ()"
+                  moduleName = "HumanLogger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/standard/Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4451D915-7960-4792-B65F-CE0E2894AB94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "805CC09E-0437-497A-9748-48985A1017DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDA0E6B9-9090-4A81-8FF8-842C5543BB17"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3660C64F-D0BB-4F68-A75F-5764E8434BA7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFDCD6EB-22C9-415B-BBB2-58F8F29A4574"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../Library/Developer/Xcode/DerivedData/HumanLogger-cxpcndoivkqjqlaolfmvnewkbrsd/SourcePackages/checkouts/BodyTracking/Sources/BodyTracking/HandTracker3D.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "update()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

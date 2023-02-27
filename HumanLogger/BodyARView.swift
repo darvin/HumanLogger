@@ -26,23 +26,27 @@ class BodyARView: ARView {
     private var robot: BodyTrackedEntity!
     
     private var bodyEntity : BodyEntity3D!
+    
+    private var handTrackers: [HandTracker3D]!
+
 
     required init(frame frameRect: CGRect) {
         super.init(frame: frameRect)
-        self.bodyEntity = BodyEntity3D(arView: self,
-                                       smoothingAmount: 0.7)
+        runNewConfig()
+
+//
         
 
-        //This is an alternative to a do-try-catch block.
-        guard let _ = try? runBodyTrackingConfig3D() else {
-            print("This device does Not support body tracking.")
-            return
-        }
-        
-        //Always remember to add the Anchors to the scene.
+        self.bodyEntity = BodyEntity3D(arView: self,
+                                       smoothingAmount: 0.7)
+//        //This is an alternative to a do-try-catch block.
+//        guard let _ = try? runBodyTrackingConfig3D() else {
+//            print("This device does Not support body tracking.")
+//            return
+//        }
+
         self.scene.addAnchor(bodyAnchor)
-        
-        //Load and show the robot.
+
         BodyTrackedEntity.loadCharacterAsync(named: "robotWhite"){ robot in
             print("Loaded \"robotWhite\"")
             print(robot)
@@ -55,6 +59,26 @@ class BodyARView: ARView {
         makeTrackedJointsVisible()
 
         
+        
+        
+        
+        self.handTrackers =
+            [HandTracker3D(arView: self),
+             HandTracker3D(arView: self)
+            ]
+
+
+        let sceneAnchor = AnchorEntity()
+
+        self.scene.addAnchor(sceneAnchor)
+
+        for handTracker in handTrackers {
+            sceneAnchor.addChild(handTracker)
+        //            handTracker.requestRate = .quarter
+        }
+
+        makeHandJointsVisible()
+
     }
     
     private func makeTrackedJointsVisible(){
@@ -66,6 +90,36 @@ class BodyARView: ARView {
         }
     }
 
+    
+    private func makeHandJointsVisible(){
+        
+        //Another way to attach views to the skeletion, but iteratively this time:
+        HandTracker2D.allHandJoints.forEach { joint in
+            for handTracker in handTrackers {
+                let sphere = Entity.makeSphere(color: .white, radius: 0.01, isMetallic: true)
+                handTracker.attach(thisEnt: sphere, toThisJoint: joint)
+            }
+        }
+    }
+
+    func runNewConfig(){
+        // Create a session configuration
+        let configuration = ARBodyTrackingConfiguration()
+        
+        //Goes with (currentFrame.smoothedSceneDepth ?? currentFrame.sceneDepth)?.depthMap
+        let frameSemantics: ARConfiguration.FrameSemantics = [.smoothedSceneDepth, .sceneDepth]
+        
+        //Goes with currentFrame.estimatedDepthData
+//        let frameSemantics: ARConfiguration.FrameSemantics = [.personSegmentationWithDepth]
+//        let frameSemantics: ARConfiguration.FrameSemantics = [.personSegmentation]
+
+        if ARBodyTrackingConfiguration.supportsFrameSemantics(frameSemantics) {
+            configuration.frameSemantics.insert(frameSemantics)
+        }
+        // Run the view's session
+        session.run(configuration)
+    }
+    
     
     @objc required dynamic init?(coder decoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
